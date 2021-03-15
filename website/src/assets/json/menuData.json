@@ -1,0 +1,17 @@
+[
+    {
+        "iconName": "icon_pm",
+        "menuName": "产品经理",
+        "linkTo": "/pm"
+    },
+    {
+        "iconName": "icon_design",
+        "menuName": "设计师",
+        "linkTo": "/designer"
+    },
+    {
+        "iconName": "icon_development",
+        "menuName": "开发者",
+        "linkTo": "/developer"
+    }
+]

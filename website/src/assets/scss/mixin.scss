@@ -1,0 +1,4 @@
+// 渐入
+@mixin transEaseIn($prop) {
+    transition: $prop .2s ease-in;
+}

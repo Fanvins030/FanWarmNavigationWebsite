@@ -1,0 +1,129 @@
+/* 公用默认样式 */
+@charset "utf-8";
+
+div,span,table{
+	font-size: 14px;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,a,i,em,b,strong,img,input,br{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica,Arial, "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+	/* 用 ascii 字符表示，使得在任何编码下都无问题 */
+	/* font: 14px/1 Tahoma, Helvetica, Arial, "\5FAE\8F6F\96C5\9ED1", sans-serif; */
+	/* font-family:'Montserrat Alternates', sans-serif; */
+	/* font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif; */
+}
+br{
+	height: 0px;
+	line-height: 0px;
+}
+ul,
+ol {
+	list-style: none;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+dt{
+	font-size: 14px;
+}
+dd{
+	font-size: 12px;
+}
+
+/* 公共样式 */
+/* .container {
+	max-width: 1200px;
+	padding: 0px 15px;
+    margin: 0 auto;
+} */
+
+a {
+	color: #333333;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+input {
+	background: none;
+	outline: none;  /* 处理输入框蓝色边 */
+	padding: 0px;
+}
+table{
+	border-collapse: collapse;
+}
+
+/* 为了兼容ie浏览器 */
+/* .clearfix {
+	zoom: 1;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+	visibility: hidden;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+} */
+
+h1{
+	font-size: 22px;
+	font-weight: bold;
+}
+h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+h3{
+	font-size: 18px;
+	font-weight: bold;
+}
+h4{
+	font-size: 16px;
+	font-weight: bold;
+}
+h5{
+	font-size: 14px;
+	font-weight: bold;
+}
+h6{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* .m-left{
+	margin-left: 14px;
+}
+.m-right{
+	margin-right: 14px;
+}
+.m-top{
+	margin-top: 14px;
+}
+.m-bottom{
+	margin-bottom: 14px;
+}
+.m-tb{
+	margin: 20px 0px;
+}
+.m-lr{
+	margin: 0px 20px;
+}
+
+.flag-new{
+	background: #83C44E;
+	color:#fff;
+}
+.flag-saleoff{
+	color:#fff;
+	background: #E53935;
+} */
