@@ -256,7 +256,7 @@ export default {
     }
   }
 
-  > div:not(.header, .footer) {
+  > div:not(.header):not(.footer) {
     min-height: 800px;
 
     .section-wrap {
