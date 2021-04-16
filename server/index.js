@@ -12,6 +12,11 @@ server.all('*', function (req, res, next) {
     next();
 });
 
+// express中间件 解析POST方法传递过来的JSON数据
+var bodyParser = require("body-parser");
+server.use(bodyParser.json());
+server.use(bodyParser.urlencoded({ extended: true }));
+
 // 终端输入:> node index.js 访问
 server.listen(MY_PORT);
 console.log("已成功监听服务器端口");

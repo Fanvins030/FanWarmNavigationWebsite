@@ -131,9 +131,11 @@ export default {
           return;
         }
         this.$axios
-          .get("data/getList?dataName=" + this.dataName)
+          .post("data/getList", { dataName: this.dataName })
           .then(async (res) => {
-            this.sectionList = await res.data;
+            if(res.data.code == 0){
+              this.sectionList = await res.data.result;
+            }
           });
       });
     },
