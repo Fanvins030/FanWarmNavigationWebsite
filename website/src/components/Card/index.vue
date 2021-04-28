@@ -49,7 +49,7 @@ export default {
         sectionIndex: sectionIndex,
         CardIndex: CardIndex,
       };
-      this.$axios.post("data/getList", query).then(async (res) => {
+      this.$axios.post("data/updateList", query).then(async (res) => {
         if (res.data.code == 0) {
           bus.$emit("updateSectionList", await res.data.result);
         }
